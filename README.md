@@ -1,18 +1,18 @@
 # Medical-imaging-carotid-artery-analysis
-# 生醫影像處理系統HW - 頸動脈之超音波動態影像評估其彈性
-# demo影片
+## 生醫影像處理系統HW - 頸動脈之超音波動態影像評估其彈性
+## demo影片
 [![Everything Is AWESOME](https://user-images.githubusercontent.com/72666141/162747220-299e5514-49e9-4ab1-b872-84b635530584.png)](https://www.youtube.com/watch?v=T4urmRUW5Q4&list=PLDRej1fof0v3sUEld6KVRUjsh-aaUuiPk&index=1)
 
-# 實現功能
+## 實現功能
 1. 使用者介面在選擇檔案的功能中輸入超音波設備收集到的原始資料。
 2. 將選取的原始資料進行資料與影像處理，得到頸動脈的收縮與擴展狀況，並使用訊號的方式，與原始資料進行同步的變化。
 3. 將頸動脈的收縮與擴展狀況使用訊號展示後，並找出波峰與波谷，最後計算出硬化指標。
 
 
-# GUI設計
+## GUI設計
 ![image](https://user-images.githubusercontent.com/72666141/162743555-f0b48eee-093c-4548-99e3-d3b41abbd915.png)
 # 操作步驟
-## Load Data 按鈕
+### Load Data 按鈕
 * 步驟一：按下 Load Data 按鈕，讀取從超音波設備收集到的原始資料，其中實作出選擇檔案的功能，可以將選擇任意路徑，而不是單一路徑。
 
 ![image](https://user-images.githubusercontent.com/72666141/162743689-216c7223-df40-47f7-aeb8-7af93b481be6.png)
@@ -36,7 +36,7 @@
 
 ![image](https://user-images.githubusercontent.com/72666141/162744234-0e10125d-4472-403d-82a4-1dde829af9ca.png)
 
-## Image Processing 按鈕
+### Image Processing 按鈕
 * 步驟二：按下 Image Processing 按鈕，對前面分割的頸動脈部分進行影像處理，因為處理時間較長，所以加入進度條，展示目前程式進行狀況。
 
 ![image](https://user-images.githubusercontent.com/72666141/162744474-1f514411-46f9-4755-93f3-7cde23134671.png)
@@ -45,7 +45,7 @@
 
 ![image](https://user-images.githubusercontent.com/72666141/162744510-b08f06a9-8215-435a-87bc-35d29e003824.png)
 
-## Show 按鈕
+### Show 按鈕
 * 步驟三：按下 Show 按鈕，此時會出現提示視窗，在右邊出現的頸動脈圖片中，畫一個圓形在頸動脈裡面作為標記。
 
 ![image](https://user-images.githubusercontent.com/72666141/162744781-d01fd414-d1bf-4cba-b012-437532316028.png)
