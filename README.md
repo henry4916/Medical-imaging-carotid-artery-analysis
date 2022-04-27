@@ -1,5 +1,5 @@
 # Medical-imaging-carotid-artery-analysis
-## 生醫影像處理系統HW - 頸動脈之超音波動態影像評估其彈性
+## 生醫影像處理系統 - 頸動脈之超音波動態影像評估其彈性
 ## demo影片
 [![Everything Is AWESOME](https://user-images.githubusercontent.com/72666141/162747220-299e5514-49e9-4ab1-b872-84b635530584.png)](https://www.youtube.com/watch?v=T4urmRUW5Q4&list=PLDRej1fof0v3sUEld6KVRUjsh-aaUuiPk&index=1)
 
